@@ -1,4 +1,3 @@
-console.log ("hello world")
 const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
@@ -26,5 +25,3 @@ seconds.innerHTML = s < 10 ? '0' + s : s;
 }
 
 setInterval(updateCountdowTimer, 1000);
-console.log ("hello world")
-
